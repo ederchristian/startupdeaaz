@@ -8,3 +8,13 @@ body {
 	font-size: 1.6rem;
 	line-height: 1.6rem;
 }
+
+/* HEADER */
+header {
+	background-image: url("../images/header-startup-de-a-a-z.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+}
