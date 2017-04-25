@@ -7,6 +7,7 @@ html {
 body {
 	font-size: 1.6rem;
 	line-height: 1.6rem;
+	background-color: #f1f1f1;
 }
 
 /* HEADER */
@@ -17,4 +18,41 @@ header {
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100vh;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#logo {
+	width: 45rem;
+	height: 45rem;
+	margin-top: 5rem;
+}
+
+#cloud {
+	width: 70rem;
+	height: 50rem;
+	position: relative;
+	z-index: 1;
+	margin-top: -20rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 750px) {
+	#logo {
+		width: 50rem;
+		height: 50rem;
+		margin-top: 5rem;
+	}
+
+	#cloud {
+		width: 100%;
+		height: 40rem;
+		position: relative;
+		z-index: 1;
+		margin-top: -30rem;
+	}
 }
