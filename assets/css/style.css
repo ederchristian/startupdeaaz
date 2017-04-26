@@ -5,6 +5,7 @@ html {
 }
 
 body {
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.6rem;
 	line-height: 1.6rem;
 	background-color: #f1f1f1;
@@ -49,7 +50,7 @@ header {
 	}
 
 	#cloud {
-		width: 100%;
+		width: 100rem;
 		height: 40rem;
 		position: relative;
 		z-index: 1;
@@ -74,8 +75,34 @@ button {
 	text-decoration: none;
 	text-transform: uppercase;
 	line-height: 2.5rem;
+	letter-spacing: .1rem;
+	font-weight: 700;
 }
 
 button:hover {
 	background-color: #263c84;
+}
+
+/* CONTEÚDO */
+.title {
+	padding-top: 5rem;
+	z-index: 3;
+	float: none;
+	margin: 0 auto;
+}
+
+.title h1 {
+	text-align: center;
+	font-weight: 700;
+}
+
+.text {
+	padding-top: 3rem;
+	z-index: 3;
+	float: none;
+	margin: 0 auto;
+}
+
+.text p {
+	font-weight: 300;
 }
