@@ -84,9 +84,11 @@ button:hover {
 }
 
 /* CONTEÚDO */
+section {
+	margin: 7rem 0 7rem;
+}
 
 .title {
-	padding-top: 5rem;
 	z-index: 3;
 	float: none;
 	margin: 0 auto;
