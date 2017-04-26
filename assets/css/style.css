@@ -83,15 +83,10 @@ button:hover {
 	background-color: #263c84;
 }
 
-/* CONTEÚDO */
-section {
-	margin: 7rem 0 7rem;
-}
-
+/* SECTION */
 .title {
+	padding-top: 5rem;
 	z-index: 3;
-	float: none;
-	margin: 0 auto;
 }
 
 .title h1 {
@@ -103,9 +98,8 @@ section {
 
 .text {
 	padding-top: 3rem;
+	padding-bottom: 10rem;
 	z-index: 3;
-	float: none;
-	margin: 0 auto;
 }
 
 .text p {
@@ -120,6 +114,12 @@ section {
 	text-align: center;
 }
 
+/* PÚBLICO */
 #helicoptero, #aviao, #foguete {
 	height: 10rem;
+}
+
+/* CONTEÚDO */
+.conteudo {
+	background-color: #c9c9c9;
 }
