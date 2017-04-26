@@ -127,3 +127,18 @@ button:hover {
 .conteudo {
 	background-color: #c9c9c9;
 }
+
+.conteudo .text {
+	padding-top: 1rem;
+}
+
+.conteudo > .text h2 {
+	padding-top: 1rem;
+	font-weight: 300;
+	font-size: 1.8rem;
+	line-height: 3rem;
+}
+
+#svg-conteudo {
+	height: 10rem;
+}
