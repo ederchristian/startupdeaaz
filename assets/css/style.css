@@ -84,6 +84,7 @@ button:hover {
 }
 
 /* CONTEÚDO */
+
 .title {
 	padding-top: 5rem;
 	z-index: 3;
@@ -94,6 +95,8 @@ button:hover {
 .title h1 {
 	text-align: center;
 	font-weight: 700;
+	font-size: 3rem;
+	text-transform: uppercase;
 }
 
 .text {
@@ -105,4 +108,16 @@ button:hover {
 
 .text p {
 	font-weight: 300;
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+.text h2 {
+	font-weight: 400;
+	font-size: 2rem;
+	text-align: center;
+}
+
+#helicoptero, #aviao, #foguete {
+	height: 10rem;
 }
