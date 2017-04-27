@@ -179,3 +179,7 @@ button:hover {
 	font-size: 2rem;
 	line-height: 3rem;
 }
+
+.especialista img {
+	height: 20rem;
+}
