@@ -168,3 +168,14 @@ button:hover {
 .description p {
 	font-weight: 300;
 }
+
+/* ESPECIALISTAS */
+.especialistas {
+	background-color: #c0c0c0;
+}
+
+.especialistas > .text h2 {
+	font-weight: 300;
+	font-size: 2rem;
+	line-height: 3rem;
+}
