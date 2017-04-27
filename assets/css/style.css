@@ -180,6 +180,31 @@ button:hover {
 	line-height: 3rem;
 }
 
+.especialista {
+	padding-bottom: 5rem;
+}
+
 .especialista img {
-	height: 20rem;
+	height: 15rem;
+	border-radius: 2rem;
+}
+
+.especialista h3 {
+	color: #194f82;
+	font-weight: 400;
+	font-size: 2rem;
+	line-height: 2.7rem;
+	padding-bottom: 1rem;
+}
+
+.especialista h4 {
+	font-weight: 400;
+	font-size: 1.8rem;
+	line-height: 2rem;
+	margin-top: -1.5rem;
+}
+
+.especialista p {
+	font-weight: 300;
+	line-height: 2rem;
 }
