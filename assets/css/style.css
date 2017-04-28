@@ -98,6 +98,12 @@ button:hover {
 	background-color: #263c84;
 }
 
+button a,
+button a:hover {
+	text-decoration: none;
+	color: #f1f1f1;
+}
+
 /* TEXT */
 .title {
 	padding-top: 5rem;
