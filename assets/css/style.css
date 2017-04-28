@@ -309,3 +309,17 @@ button:hover {
 	background-color: #909090;
 	padding-bottom: 4rem;
 }
+
+.ao-vivo {
+	margin-top: -5rem;
+}
+
+#ao-vivo {
+	height: 10rem;
+}
+
+.bonus h3 {
+	font-weight: 300;
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
