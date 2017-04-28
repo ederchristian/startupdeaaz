@@ -143,7 +143,7 @@ button:hover {
 
 .conteudo > .text h2 {
 	padding-top: 1rem;
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 2rem;
 	line-height: 3rem;
 }
@@ -174,7 +174,7 @@ button:hover {
 }
 
 .especialistas > .text h2 {
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 2rem;
 	line-height: 3rem;
 }
@@ -236,13 +236,13 @@ button:hover {
 }
 
 .depoimentos > .text h2 {
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 2rem;
 	line-height: 3rem;
 }
 
 .depoimentos > .text h2 span {
-	font-weight: 400;
+	font-weight: 700;
 }
 
 #esquerda, #direita {
@@ -310,6 +310,12 @@ button:hover {
 	padding-bottom: 4rem;
 }
 
+.bonus > .text h2 {
+	font-weight: 400;
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
 .ao-vivo {
 	margin-top: -5rem;
 }
@@ -351,4 +357,15 @@ button:hover {
 	font-weight: 400;
 	font-size: 1.6rem;
 	line-height: 2rem;
+}
+
+/* COMPRAR */
+.comprar {
+	background-color: #f1f1f1;
+}
+
+.comprar > .text h2 {
+	font-weight: 400;
+	font-size: 2rem;
+	line-height: 3rem;
 }
