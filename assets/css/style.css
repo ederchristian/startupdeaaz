@@ -22,6 +22,14 @@ header {
     background-size: cover;
 }
 
+#barra {
+	height: 0.7rem;
+	width: 0%;
+	position: fixed;
+	background-color: #194f82;
+	z-index: 4;
+}
+
 .container-header {
 	width: 100%;
 	display: flex;
