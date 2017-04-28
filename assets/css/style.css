@@ -419,3 +419,19 @@ button:hover {
 	text-transform: uppercase;
 	padding-top: 3rem;
 }
+
+/* FOOTER */
+.footer {
+	background-color: #303030;
+	height: 10rem;
+}
+
+.footer p {
+	color: #f1f1f1;
+	font-weight: 300;
+	font-size: 1.2rem;
+}
+
+.footer p span {
+	font-weight: 700;
+}
