@@ -447,4 +447,9 @@ button:hover {
 	padding-right: 3rem; 
 	margin-top: -7rem;
 	margin-bottom: -7rem;
+	transition: transform .3s ease-out;
+}
+
+#svg-footer:hover {
+	transform: scale(1.2);
 }
