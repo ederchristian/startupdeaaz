@@ -15,3 +15,11 @@ $('a[href^="#"]').on('click', function(event) {
 		}, 1000);
 	}
 });
+
+/* SCROLL BAR */
+var line = document.querySelector("#barra");
+addEventListener("scroll", function() {
+	var max = document.body.scrollHeight - innerHeight;
+	var percent = (pageYOffset / max) * 100;
+	line.style.width = percent + "%";
+});
