@@ -229,3 +229,78 @@ button:hover {
 		transition: transform .3s ease-out;
 	}
 }
+
+/* DEPOIMENTOS */
+.depoimentos {
+	background-color: #a8a8a8;
+	padding-bottom: 4rem;
+}
+
+.depoimentos > .text h2 {
+	font-weight: 300;
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
+.depoimentos > .text h2 span {
+	font-weight: 400;
+}
+
+#esquerda, #direita {
+	height: 5rem;
+}
+
+#depoimentos-carousel {
+  padding: 0 3rem 5rem 5rem;
+  margin-top: -7rem;
+}
+
+.carousel-indicators li {
+	border-color: #555;
+}
+
+.carousel-indicators li.active {
+	background-color: #555;
+}
+
+#depoimentos-carousel .carousel-control {
+	background: none;
+	margin-top: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+	#depoimentos-carousel .carousel-control {
+		margin-top: 50rem;
+	}
+
+	.left {
+		margin-left: 3rem;
+	}
+
+	.right {
+		margin-right: 3rem;
+	}
+}
+
+#depoimentos-carousel .carousel-control.left {
+	left: -5rem !important;
+}
+
+#depoimentos-carousel .carousel-control.right {
+	right: -5rem !important;
+}
+
+.item blockquote {
+    border-left: none;
+}
+
+.item blockquote p {
+	font-weight: 300;
+	line-height: 2rem;
+	color: #222;
+}
+
+.item blockquote small {
+	font-weight: 400;
+	color: #111;
+}
