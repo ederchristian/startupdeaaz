@@ -1,7 +1,6 @@
 /* GENERAL */
-
 html {
-	font-size: 62.5%;
+	font-size: 62.5%; /* in this way: 1rem = 10px */
 }
 
 body {
@@ -303,4 +302,10 @@ button:hover {
 .item blockquote small {
 	font-weight: 400;
 	color: #111;
+}
+
+/* BONUS */
+.bonus {
+	background-color: #909090;
+	padding-bottom: 4rem;
 }
