@@ -106,6 +106,12 @@ button:hover {
 	z-index: 3;
 }
 
+@media screen and (max-width: 900px) {
+	.text {
+		padding-bottom: 4rem;
+	}
+}
+
 .text p {
 	font-weight: 300;
 	font-size: 1.6rem;
@@ -320,6 +326,12 @@ button:hover {
 	margin-top: -5rem;
 }
 
+@media screen and (max-width: 900px) {
+	.ao-vivo {
+		margin-top: 1rem;
+	}
+}
+
 @media screen and (min-width: 900px) {
 	.ao-vivo {
 		padding-left: 20rem;
@@ -444,7 +456,7 @@ button:hover {
 #svg-footer {
 	height: 2rem;
 	fill: #f1f1f1;
-	padding-right: 3rem; 
+	padding: 0 2rem 0 2rem; 
 	margin-top: -7rem;
 	margin-bottom: -7rem;
 	transition: transform .3s ease-out;
@@ -452,4 +464,10 @@ button:hover {
 
 #svg-footer:hover {
 	transform: scale(1.2);
+}
+
+@media screen and (max-width: 900px) {
+	#svg-footer {
+		margin-bottom: -4rem;
+	}
 }
