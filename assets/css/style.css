@@ -435,3 +435,16 @@ button:hover {
 .footer p span {
 	font-weight: 700;
 }
+
+.footer a {
+	text-decoration: none;
+	color: #f1f1f1;
+}
+
+#svg-footer {
+	height: 2rem;
+	fill: #f1f1f1;
+	padding-right: 3rem; 
+	margin-top: -7rem;
+	margin-bottom: -7rem;
+}
